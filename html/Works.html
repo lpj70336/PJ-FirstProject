@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>黃立穎 HLY</title>
+    <link rel="icon" href="../img/title icon.jpg">
+    <link rel="stylesheet" href="../html/_css/bootstrap.css">
+    <link rel="stylesheet" href="./CVstyle.css">
+    <link rel="stylesheet" href="./mainStyle.css">
+    <script src="../html/_js/bootstrap.bundle.js"></script>
+
+</head>
+
+<body>
+    <!-- 選單列 -->
+    <nav class="navbar sticky-top bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-2" href="./main.html">
+                <span style="letter-spacing: 17px;">
+                    黃立穎<br>
+                </span>
+                <span class="About-Font-Size">
+                    Li Ying Huang
+                </span>
+            </a>
+            <button style="border: white;" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div style="opacity: 0.8;width: 20%; height: 57%;" class="offcanvas offcanvas-end bg-white" tabindex="-1"
+                id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./main.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="./About.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="./Works.html">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="./Exhibition.html">Exhibition</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="./Commission.html">Commission</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="./Contact.html">Contact</a>
+                        </li>
+                        <br><br>
+
+                        <li class="nav-item">
+                            <!-- email 連結 -->
+                            <a class="nav-link"
+                                href="https://mail.google.com/mail/u/0/#inbox?compose=VpCqJTChMpCPqlbcFzFtRtjjrmMGwDGJtBHkWTNRwRXgBWPFZpJCLlkVfvTqwQpTXFnHcfG"
+                                style="display: inline-block;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                    class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                                </svg>
+                            </a>
+
+                            <!-- FB 連結 -->
+                            <a class="nav-link ms-2" href="https://www.facebook.com/profile.php?id=100002273476970"
+                                style="display: inline-block;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                    class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                </svg>
+                            </a>
+
+                            <!-- IG 連結 -->
+                            <a class="nav-link ms-2" href="https://www.instagram.com/hlyguchi/"
+                                style="display: inline-block;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- 2023 -->
+    <div class="container">
+        <br><br>
+        <p class="h5 fw-bolder">2023</p>
+        <hr>
+        <div class="row g-5">
+            <!-- 奇石83 -->
+            <div class="col-md-6 col-lg-3">
+                <button type="button" class="btn btn-white border-white mt-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal-2023">
+                    <img src="../Works/2023/奇石83，85cmX85cm，木板、石墨，2023.JPG" class="img-fluid worksimg">
+                </button>
+                <div class="About-Font-Size mt-3 text-center">奇石83</div>
+
+            </div>
+            <!-- 奇石84 -->
+            <div class="col-md-6 col-lg-3">
+                <button type="button" class="btn btn-white border-white mt-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal-2023">
+                    <img src="../Works/2023/奇石84，85cmX85cm，木板、石墨，2023.JPG" class="img-fluid worksimg">
+                </button>
+                <div class="About-Font-Size mt-3 text-center">奇石84</div>
+            </div>
+            <!-- 奇石85 -->
+            <div class="col-md-6 col-lg-3">
+                <button type="button" class="btn btn-white border-white mt-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal-2023">
+                    <img src="../Works/2023/奇石85，125cmX65cm，木板、石墨，2023.JPG" class="img-fluid worksimg">
+                </button>
+                <div class="About-Font-Size mt-3 text-center">奇石85</div>
+            </div>
+            <!-- 奇石86 -->
+            <div class="col-md-6 col-lg-3">
+                <button type="button" class="btn btn-white border-white mt-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal-2023">
+                    <img src="../Works/2023/奇石86，125cmX65cm，木板、石墨，2023.JPG" class="img-fluid worksimg">
+                </button>
+                <div class="About-Font-Size mt-3 text-center">奇石86</div>
+            </div>
+            <!-- 奇石87 -->
+            <div class="col-md-6 col-lg-3">
+                <button type="button" class="btn btn-white border-white mt-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal-2023">
+                    <img src="../Works/2023/奇石87，39cmX27cm，木板、石墨，2023.JPG" class="img-fluid worksimg">
+                </button>
+                <div class="About-Font-Size mt-3 text-center">奇石87</div>
+            </div>
+            <!-- 奇石93 -->
+            <div class="col-md-6 col-lg-3">
+                <button type="button" class="btn btn-white border-white mt-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal-2023">
+                    <img src="../Works/2023/奇石93，150cmX150cm，木板、石墨，2023.jpg" class="img-fluid worksimg">
+                </button>
+                <div class="About-Font-Size mt-3 text-center">奇石93</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2023 小視窗 -->
+    <div class="modal fade" id="exampleModal-2023" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog Modal-position">
+            <div class="modal-content Carousel-img">
+                <button type="button" class="btn-close ms-auto p-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="row m-3">
+                    <!-- 輪播 -->
+                    <div id="carouselExampleCaptions-2023" class="carousel slide carousel-fade">
+                        <div class="carousel-inner">
+                            <!-- 奇石83 -->
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img src="../Works/2023/奇石83，85cmX85cm，木板、石墨，2023.JPG" class="d-block w-100">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="h5 fw-bolder">奇石83</p>
+                                        <br>
+                                        <p class="Pdiv">2023</p>
+                                        <p class="Pdiv">85cmX85cm</p>
+                                        <p class="Pdiv">木板、石墨</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 奇石84 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img src="../Works/2023/奇石84，85cmX85cm，木板、石墨，2023.JPG" class="d-block w-100">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="h5 fw-bolder">奇石84</p>
+                                        <br>
+                                        <p class="Pdiv">2023</p>
+                                        <p class="Pdiv">85cmX85cm</p>
+                                        <p class="Pdiv">木板、石墨</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 奇石85 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img src="../Works/2023/奇石85，125cmX65cm，木板、石墨，2023.JPG" class="d-block w-100">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="h5 fw-bolder">奇石85</p>
+                                        <br>
+                                        <p class="Pdiv">2023</p>
+                                        <p class="Pdiv">125cmX65cm</p>
+                                        <p class="Pdiv">木板、石墨</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 奇石86 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img src="../Works/2023/奇石86，125cmX65cm，木板、石墨，2023.JPG" class="d-block w-100">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="h5 fw-bolder">奇石86</p>
+                                        <br>
+                                        <p class="Pdiv">2023</p>
+                                        <p class="Pdiv">125cmX65cm</p>
+                                        <p class="Pdiv">木板、石墨</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 奇石87 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img src="../Works/2023/奇石87，39cmX27cm，木板、石墨，2023.JPG" class="d-block w-100">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="h5 fw-bolder">奇石87</p>
+                                        <br>
+                                        <p class="Pdiv">2023</p>
+                                        <p class="Pdiv">39cmX27cm</p>
+                                        <p class="Pdiv">木板、石墨</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 奇石93 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img src="../Works/2023/奇石93，150cmX150cm，木板、石墨，2023.jpg" class="d-block w-100">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="h5 fw-bolder">奇石93</p>
+                                        <br>
+                                        <p class="Pdiv">2023</p>
+                                        <p class="Pdiv">150cmX150cm</p>
+                                        <p class="Pdiv">木板、石墨</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#carouselExampleCaptions-2023" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <!-- <span class="visually-hidden">Previous</span> -->
+                        </button>
+                        <button class="carousel-control-next Carousel-btn" type="button"
+                            data-bs-target="#carouselExampleCaptions-2023" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <!-- <span class="visually-hidden">Next</span> -->
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 2022 -->
+    <div class="container">
+        <br><br>
+        <p class="h5 fw-bolder">2022</p>
+        <hr>
+
+        <div class="row g-5">
+            <!-- 奇石25 -->
+            <div class="col-md-6 col-lg-3">
+                <button type="button" class="btn btn-white border-white mt-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal-2022">
+                    <img src="../Works/2022/奇石25，石墨、木板，150cmX150cm，2022.JPG" class="img-fluid worksimg">
+                </button>
+                <div class="About-Font-Size mt-3 text-center">奇石25</div>
+            </div>
+
+            <!-- 奇石42 -->
+            <div class="col-md-6 col-lg-3">
+                <button type="button" class="btn btn-white border-white mt-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal-2022">
+                    <img src="../Works/2022/奇石42，石墨、木板，150cmX150cm，2022.jpg" class="img-fluid worksimg">
+                </button>
+                <div class="About-Font-Size mt-3 text-center">奇石42</div>
+            </div>
+
+            <!-- 奇石51 -->
+            <div class="col-md-6 col-lg-3">
+                <button type="button" class="btn btn-white border-white mt-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal-2022">
+                    <img src="../Works/2022/奇石51，石墨、木板，76cmX50cm，2022.jpg" class="img-fluid worksimg">
+                </button>
+                <div class="About-Font-Size mt-3 text-center">奇石51</div>
+            </div>
+
+            <!-- 奇石52 -->
+            <div class="col-md-6 col-lg-3">
+                <button type="button" class="btn btn-white border-white mt-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal-2022">
+                    <img src="../Works/2022/奇石52，石墨、木板，85cmX85cm，2022.jpg" class="img-fluid worksimg">
+                </button>
+                <div class="About-Font-Size mt-3 text-center">奇石52</div>
+            </div>
+
+            <!-- 奇石53 -->
+            <div class="col-md-6 col-lg-3">
+                <button type="button" class="btn btn-white border-white mt-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal-2022">
+                    <img src="../Works/2022/奇石53，石墨、木板，85cmX85cm，2022.jpg" class="img-fluid worksimg">
+                </button>
+                <div class="About-Font-Size mt-3 text-center">奇石53</div>
+            </div>
+
+            <!-- 奇石70 -->
+            <div class="col-md-6 col-lg-3">
+                <button type="button" class="btn btn-white border-white mt-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal-2022">
+                    <img src="../Works/2022/奇石70，石墨、木板，65cmX125cm，2022.JPG" class="img-fluid worksimg">
+                </button>
+                <div class="About-Font-Size mt-3 text-center">奇石70</div>
+            </div>
+
+            <!-- 奇石71 -->
+            <div class="col-md-6 col-lg-3">
+                <button type="button" class="btn btn-white border-white mt-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal-2022">
+                    <img src="../Works/2022/奇石71，石墨、木板，65cmX125cm，2022.JPG" class="img-fluid worksimg">
+                </button>
+                <div class="About-Font-Size mt-3 text-center">奇石71</div>
+            </div>
+
+            <!-- 奇石73 -->
+            <div class="col-md-6 col-lg-3">
+                <button type="button" class="btn btn-white border-white mt-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal-2022">
+                    <img src="../Works/2022/奇石73，石墨、木板，50cmX250cm，2022.JPG" class="img-fluid worksimg">
+                </button>
+                <div class="About-Font-Size mt-3 text-center">奇石73</div>
+            </div>
+
+            <!-- 奇石74 -->
+            <div class="col-md-6 col-lg-3">
+                <button type="button" class="btn btn-white border-white mt-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal-2022">
+                    <img src="../Works/2022/奇石74，石墨、木板，76cmX50cm，2022.JPG" class="img-fluid worksimg">
+                </button>
+                <div class="About-Font-Size mt-3 text-center">奇石74</div>
+            </div>
+
+            <!-- 奇石75 -->
+            <div class="col-md-6 col-lg-3">
+                <button type="button" class="btn btn-white border-white mt-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal-2022">
+                    <img src="../Works/2022/奇石75，石墨、木板，50cmX250cm，2022.JPG" class="img-fluid worksimg">
+                </button>
+                <div class="About-Font-Size mt-3 text-center">奇石75</div>
+            </div>
+
+            <!-- 奇石76 -->
+            <div class="col-md-6 col-lg-3">
+                <button type="button" class="btn btn-white border-white mt-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal-2022">
+                    <img src="../Works/2022/奇石76，石墨、木板，85cmX85cm，2022.JPG" class="img-fluid worksimg">
+                </button>
+                <div class="About-Font-Size mt-3 text-center">奇石76</div>
+            </div>
+
+            <!-- 奇石77 -->
+            <div class="col-md-6 col-lg-3">
+                <button type="button" class="btn btn-white border-white mt-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal-2022">
+                    <img src="../Works/2022/奇石77，石墨、木板，85cmX85cm，2022.JPG" class="img-fluid worksimg">
+                </button>
+                <div class="About-Font-Size mt-3 text-center">奇石77</div>
+            </div>
+
+            <!-- 奇石82 -->
+            <div class="col-md-6 col-lg-3">
+                <button type="button" class="btn btn-white border-white mt-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal-2022">
+                    <img src="../Works/2022/奇石82，石墨、木板，27cmX39cm，2022.JPG" class="img-fluid worksimg">
+                </button>
+                <div class="About-Font-Size mt-3 text-center">奇石82</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2022 小視窗 -->
+    <div class="modal fade" id="exampleModal-2022" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog Modal-position">
+            <div class="modal-content Carousel-img">
+                <button type="button" class="btn-close ms-auto p-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="row m-3">
+                    <!-- 輪播 -->
+                    <div id="carouselExampleCaptions-2022" class="carousel slide carousel-fade">
+                        <div class="carousel-inner">
+                            <!-- 奇石25 -->
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img src="../Works/2022/奇石25，石墨、木板，150cmX150cm，2022.JPG" class="d-block w-100">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="h5 fw-bolder">奇石25</p>
+                                        <br>
+                                        <p class="Pdiv">2022</p>
+                                        <p class="Pdiv">150cmX150cm</p>
+                                        <p class="Pdiv">木板、石墨</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 奇石42 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img src="../Works/2022/奇石42，石墨、木板，150cmX150cm，2022.jpg" class="d-block w-100">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="h5 fw-bolder">奇石42</p>
+                                        <br>
+                                        <p class="Pdiv">2022</p>
+                                        <p class="Pdiv">150cmX150cm</p>
+                                        <p class="Pdiv">木板、石墨</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 奇石51 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img src="../Works/2022/奇石51，石墨、木板，76cmX50cm，2022.jpg" class="d-block w-100">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="h5 fw-bolder">奇石51</p>
+                                        <br>
+                                        <p class="Pdiv">2022</p>
+                                        <p class="Pdiv">76cmX50cm</p>
+                                        <p class="Pdiv">木板、石墨</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 奇石52 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img src="../Works/2022/奇石52，石墨、木板，85cmX85cm，2022.jpg" class="d-block w-100">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="h5 fw-bolder">奇石52</p>
+                                        <br>
+                                        <p class="Pdiv">2022</p>
+                                        <p class="Pdiv">85cmX85cm</p>
+                                        <p class="Pdiv">木板、石墨</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 奇石53 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img src="../Works/2022/奇石53，石墨、木板，85cmX85cm，2022.jpg" class="d-block w-100">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="h5 fw-bolder">奇石53</p>
+                                        <br>
+                                        <p class="Pdiv">2022</p>
+                                        <p class="Pdiv">85cmX85cm</p>
+                                        <p class="Pdiv">木板、石墨</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 奇石57 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img src="../Works/2022/奇石57，石墨、木板，27cmX39cm，2022.JPG" class="d-block w-100">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="h5 fw-bolder">奇石57</p>
+                                        <br>
+                                        <p class="Pdiv">2022</p>
+                                        <p class="Pdiv">27cmX39cm</p>
+                                        <p class="Pdiv">木板、石墨</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 奇石70 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img src="../Works/2022/奇石70，石墨、木板，65cmX125cm，2022.JPG" class="d-block w-100">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="h5 fw-bolder">奇石70</p>
+                                        <br>
+                                        <p class="Pdiv">2022</p>
+                                        <p class="Pdiv">65cmX125cm</p>
+                                        <p class="Pdiv">木板、石墨</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 奇石71 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img src="../Works/2022/奇石71，石墨、木板，65cmX125cm，2022.JPG" class="d-block w-100">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="h5 fw-bolder">奇石71</p>
+                                        <br>
+                                        <p class="Pdiv">2022</p>
+                                        <p class="Pdiv">65cmX125cm</p>
+                                        <p class="Pdiv">木板、石墨</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 奇石73 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img src="../Works/2022/奇石73，石墨、木板，50cmX250cm，2022.JPG" class="d-block w-100">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="h5 fw-bolder">奇石73</p>
+                                        <br>
+                                        <p class="Pdiv">2022</p>
+                                        <p class="Pdiv">50cmX250cm</p>
+                                        <p class="Pdiv">木板、石墨</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 奇石74 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img src="../Works/2022/奇石74，石墨、木板，76cmX50cm，2022.JPG" class="d-block w-100">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="h5 fw-bolder">奇石74</p>
+                                        <br>
+                                        <p class="Pdiv">2022</p>
+                                        <p class="Pdiv">76cmX50cm</p>
+                                        <p class="Pdiv">木板、石墨</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 奇石75 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img src="../Works/2022/奇石75，石墨、木板，50cmX250cm，2022.JPG" class="d-block w-100">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="h5 fw-bolder">奇石75</p>
+                                        <br>
+                                        <p class="Pdiv">2022</p>
+                                        <p class="Pdiv">50cmX250cm</p>
+                                        <p class="Pdiv">木板、石墨</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 奇石76 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img src="../Works/2022/奇石76，石墨、木板，85cmX85cm，2022.JPG" class="d-block w-100">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="h5 fw-bolder">奇石76</p>
+                                        <br>
+                                        <p class="Pdiv">2022</p>
+                                        <p class="Pdiv">85cmX85cm</p>
+                                        <p class="Pdiv">木板、石墨</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 奇石77 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img src="../Works/2022/奇石77，石墨、木板，85cmX85cm，2022.JPG" class="d-block w-100">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="h5 fw-bolder">奇石77</p>
+                                        <br>
+                                        <p class="Pdiv">2022</p>
+                                        <p class="Pdiv">85cmX85cm</p>
+                                        <p class="Pdiv">木板、石墨</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 奇石82 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img src="../Works/2022/奇石82，石墨、木板，27cmX39cm，2022.JPG" class="d-block w-100">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="h5 fw-bolder">奇石82</p>
+                                        <br>
+                                        <p class="Pdiv">2022</p>
+                                        <p class="Pdiv">27cmX39cm</p>
+                                        <p class="Pdiv">木板、石墨</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#carouselExampleCaptions-2022" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <!-- <span class="visually-hidden">Previous</span> -->
+                        </button>
+                        <button class="carousel-control-next Carousel-btn" type="button"
+                            data-bs-target="#carouselExampleCaptions-2022" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <!-- <span class="visually-hidden">Next</span> -->
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Back to top -->
+    <a href="#top" class="GoTopDiv">Back to top
+        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-bar-up"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5zm-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5z" />
+        </svg>
+    </a>
+
+
+
+</body>
+
+</html>

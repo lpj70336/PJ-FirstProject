@@ -1,0 +1,29 @@
+.MyTitle {
+    position: absolute;
+    color: white;
+    top: 25vh;
+    left: 70vw;
+    z-index: 100;
+    font-size: 20vw;
+}
+
+.MyProject {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -999;
+    display: flex;
+    align-items: center;
+    background-color: rgb(30, 30, 30);
+}
+
+.MyProject img {
+    object-fit: cover;
+}
+
+.nav-link:hover {
+    color: gray !important;
+}
+

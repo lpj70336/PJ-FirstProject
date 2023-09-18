@@ -1,0 +1,112 @@
+.CVimgDiv {
+    width: 100%;
+
+}
+
+.CVimg {
+    width: 49vw;
+    display: block;
+    margin: auto;
+}
+
+.Pdiv {
+    font-size: small;
+    line-height: 1.5;
+    /* 調整行高，1 表示與文字基線對齊 */
+    text-align: left;
+}
+
+.EnglishPdiv {
+    font-size:small;
+    line-height: 1.5;
+    /* 調整行高，1 表示與文字基線對齊 */
+    text-align: left;
+}
+
+.CVdiv {
+    width: 100%;
+    border-right: 2px solid rgb(170, 170, 170);
+    padding-right: 20px;
+}
+
+.EnglishCVdiv {
+    padding-left: 10px;
+    width: 100%;
+}
+
+.imgStyle {
+    width: 100%;
+}
+
+.PtextIndent {
+    text-indent: 3vw;
+}
+
+.GoTopDiv {
+    position: fixed;
+    right:2vw ;
+    bottom: 2vh;
+    text-decoration: none;
+    color: gray;
+}
+
+.GoTopDiv:hover {
+    color: black;
+}
+
+.Mylink {
+    text-decoration: none;
+    color: gray;
+}
+
+.Mylink:hover {
+    color: black;
+}
+
+.worksimg:hover {
+    opacity: 0.8;
+}
+
+.tdName {
+    border-right: 12px solid white;
+}
+
+.About-Font-Size {
+    font-size: 14px;
+}
+
+.Contact-Font-Size {
+    font-size: 13px;
+}
+
+.textStyle {
+    background-color: rgb(245, 245, 245);
+    border: 1px solid gray;
+}
+
+.SubmitBtn {
+    background-color: black;
+    color: white;
+    padding: 7px !important;
+}
+
+.SubmitBtn:hover {
+    background-color: gray;
+}
+
+.contact-bg {
+    background-color: rgb(245, 245, 245);
+}
+
+.Modal-position {
+    margin-left: 25vw;
+    margin-top: 10vh;
+}
+
+.Carousel-img {
+    width: 50vw;
+}
+
+.Carousel-btn {
+    margin-right: 16vw;
+}

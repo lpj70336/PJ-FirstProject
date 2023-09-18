@@ -1,0 +1,13 @@
+.MyTitle {
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 10%;
+}
+
+.MyProject {
+    background-color: blue;
+    position: relative;
+}
+
+
